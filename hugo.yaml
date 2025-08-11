@@ -1,0 +1,28 @@
+baseURL: ""
+languageCode: en-us
+title: Karthik Prabhu
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Hello Stranger"
+    Content: Welcome  to my site. Hope you find it useful
+  socialIcons:
+    - name: twitter
+      url: "http://twitter.com/"
+
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: archive
+      name: archive
+      url: /archive/
+      weight: 20
